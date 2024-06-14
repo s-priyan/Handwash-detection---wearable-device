@@ -1,0 +1,18 @@
+{
+    "model_type": "FCN",
+    "input_dir": "F:/intern/senzanalytics-handwash_recognition-cc375ddb4bbc/data/windowed_handinfo_all/windowed_handinfo_banu_100/" ,
+    "output_dir": "F:/intern/senzanalytics-handwash_recognition-cc375ddb4bbc/models/",
+    "fhw_nolabeled_dir": "F:/intern/senzanalytics-handwash_recognition-cc375ddb4bbc/data/windowed_handinfo_FHW/windowed_handinfo_FHW/check/",
+    "fhw_nolabeled": true,
+    "fhw_labeled_dir": "F:/intern/senzanalytics-handwash_recognition-cc375ddb4bbc/data/windowed_handinfo_banu/windowed_handinfo_banu/check/",
+    "fhw_labeled": true,
+    "axis": 6,
+    "hand_combo": "ALL",
+    "hand_info": "handinfo",
+    "other": "",
+    
+    "model_kwargs": {
+        "batch_size": 16,
+        "epochs": 25
+    }
+}
